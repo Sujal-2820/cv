@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+
+<!--Concept of tables is widely used in the program-->
+
+<body>
+    <table cellspacing = "20">
+        <tr>
+            <td><img src="Image/Personal-modified.png" alt="Sujal Soni" width="250"></td>
+            <td><h1>My contact Details</h1>
+                <p><strong>Full Name : </strong> <em>Sujal Soni</em></p>
+                <p><strong>Contact Number : </strong> 9981331303</p>
+                <p><strong>Email Address : </strong> <em><a href="https://sujal123soni@gmail.com" target="_blank">sujal123soni@gmail.com</a></em></p>
+            </td>
+        </tr>
+    </table>
+    <hr size="3" noshade>
+
+    <!-- making table in html. 
+        tr means table row.  
+        td means table data
+        thead means table head. Elements get formatted in bold
+        tbody means table body-->
+
+    <h2>My Journey so far</h2>
+    <table border="2" cellspacing = "30">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Education</th>
+            </tr>
+        </thead>
+        
+        <tr>
+            <td>2009-2012</td>
+            <td>Agrawal Public School, Indore</td>
+        </tr>
+        
+        <tr>
+            <td>2012-2014</td>
+            <td>St. Mary's Convent School, Kasauli</td>
+        </tr>
+        
+        <tr>
+            <td>2014-2018</td>
+            <td>Delhi Public School, Indore</td>
+        </tr>
+        
+        <tr>
+            <td>2019-2021</td>
+            <td>St. Paul's H.S. School, Indore</td>
+        </tr>
+    </table>
+    <br>
+    <hr size="4" noshade>
+    <br>
+    <a href="skills.html" target="_blank"><h3>My Skills</h3></a>
+    <br>
+    <hr size="3" noshade>
+    <br>
+
+    <h2>Contact Form</h2>
+    <form action="mailto:sujal123soni@gamil.com" method="post" enctype="text/plain">              <!--When we hit submit button, we will be directed to the "email" page-->
+        <label>Your Name: </label>                                           <!--"post" means whatever the message would be, that will be written to the receipient--> 
+        <input type="text" name="" id="">
+        <input type="color" name="" id="">
+        <br>
+        <label>Your Email: </label>
+        <input type="email" name="" id=""><br>
+        <label>Do you want to sing up to the email list </label>
+        <input type="checkbox" name="" id="">
+        <br>
+        <label>Password</label>
+        <input type="password:" name="" id="">
+        <br>
+        <label>Your Message: </label><br>
+        <textarea name="name" id="" cols="40" rows="5"></textarea>
+        <br>
+        <label>Other details if any: </label>
+        <input type="file" name="" id="">
+        <br>
+        <input type="submit" name="" id="">
+        <hr>
+    </form>
+    
+</body>
+</html>
