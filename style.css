@@ -1,0 +1,20 @@
+body{
+    background-color: #c3f6f6;
+}
+hr{
+    border-style: none;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-color: gray;
+    height: 1px;
+    border-width: 2px;
+    border-radius: 50px;
+    width: 90%;
+}
+h1{
+    color: #038084;
+}
+h3{
+    color: #038084;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
